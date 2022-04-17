@@ -14,7 +14,7 @@
     <br>
 <?php
 
-    include "..\koneksi.php";
+    include "../koneksi.php";
 
     //Cek apakah ada nilai dari method GET dengan nama id_anggota
     if (isset($_GET['id_sinonim'])) {
@@ -47,7 +47,7 @@
         </tr>
         </thead>
         <?php
-        include "..\koneksi.php";
+        include "../koneksi.php";
         $sql="select * from sinonim order by id_sinonim desc";
 
         $hasil=mysqli_query($kon,$sql);

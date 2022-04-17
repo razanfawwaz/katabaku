@@ -14,7 +14,7 @@
     <br>
 <?php
 
-    include "..\koneksi.php";
+    include "../koneksi.php";
 
     //Cek apakah ada nilai dari method GET dengan nama id_anggota
     if (isset($_GET['id_baku'])) {
@@ -47,7 +47,7 @@
         </tr>
         </thead>
         <?php
-        include "..\koneksi.php";
+        include "../koneksi.php";
         $sql="select * from baku order by id_baku desc";
 
         $hasil=mysqli_query($kon,$sql);

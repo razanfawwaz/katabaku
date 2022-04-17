@@ -11,7 +11,7 @@
     <?php
 
     //Include file koneksi, untuk koneksikan ke database
-    include "..\koneksi.php";
+    include "../koneksi.php";
 
     //Fungsi untuk mencegah inputan karakter yang tidak sesuai
     function input($data) {
